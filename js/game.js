@@ -22,6 +22,7 @@
             .then(getStream);
         
         takePhotoButton.addEventListener('click', getPicture);
+        console.log('initialized');
     }
     
     // get video stream from the camera
