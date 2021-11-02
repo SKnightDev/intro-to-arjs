@@ -49,7 +49,7 @@
     const gotStream = stream => {
         mediaStream = stream;
         video.srcObject = stream;
-        imageCapture = new ImageCapture(stream.getVideoTracks()[1]);
+        imageCapture = new ImageCapture(stream.getVideoTracks()[0]);
     };
     
     // take the picture
