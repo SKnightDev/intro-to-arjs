@@ -99,4 +99,6 @@
             marker.appendChild(aImg);
         });        
     }
+
+    window.addEventListener(`load`, () => setTimeout(() => init(), 1000));
 }
